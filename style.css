@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    background-color: antiquewhite;
+    font-size: 18px;
+    font-family: Roboto, semi-serif;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    margin-right: 20px;
+}
+
+@media (max-width: 750px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.article p {
+    color: #3d3d3d;
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin-bottom: 15px;
+}
+
+.img {
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+    margin: auto 0;
+    width: 250px;
+    height: 250px;
+}
+
+h1, h2 {
+    font-style: italic;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #111;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #b38117;
+}
+
+/* a:visited {
+    color: #686868;
+} */
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: #474747;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    background: #686868;
+    transition: all .2s;
+}
+
+.btn:active {
+    background: #8f8f8f;
+    color: antiquewhite;
+}
+
+.btn:visited {
+    background: #c5c5c5;
+    color: #000;
+}
+
+.bg-grey {
+    background-color: #d8d7d7b4;
+}
+
+.bg-brown {
+    background-color: #aa968aa9;
+}
+
+.bg-white {
+    background-color: #f1dad1;
+    color: #000;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+}
+
+.table th, td {
+    padding: 10px 0;
+}
+
+.table tbody tr:nth-child(1) {
+    background: #fe4a712a
+}
+.table tr:nth-child(2) {
+    background: #6338a82d
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.form-row .form-group {
+    color: #3d3d3d;
+    display: block;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.form-group input, textarea {
+    font-family: inherit;
+    color: #000;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 0;
+    outline: none;
+    background: transparent;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+@media (max-width: 750px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
